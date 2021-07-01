@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(36, 28, 28);
+}
+h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color:blanchedalmond
+}
+.container-inputs {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container-jugador1 {
+    width: 50%;
+    height: 100%;
+}
+.container-jugador1 p {
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 500;
+    color: blanchedalmond;
+}
+.container-jugador1 .input1 {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.container-jugador1 .input2 {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.178);
+    color: white;
+}
+
+.container-jugador1 .input2:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.container-jugador1 .input2:active {
+    background-color:rgb(36, 28, 28);
+}
